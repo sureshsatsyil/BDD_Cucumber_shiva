@@ -1,0 +1,403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login Button is in diabled state by default",
+        "description": "",
+        "id": ";login-button-is-in-diabled-state-by-default",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25621849562,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20031813432,
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027DESKTOP-5OPC42E\u0027, ip: \u0027192.168.1.28\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61443}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir\u003dC:\\Users\\SURESH~1\\AppData\\Local\\Temp\\scoped_dir24728_2447}, takesHeapSnapshot\u003dtrue, unhandledPromptBehavior\u003d, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d68.0.3440.106, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 807ce9cf977ba0cc0ca66e82a58deac6\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:374)\r\n\tat com.qa.pages.LoginPage.validateLoginPageTitle(LoginPage.java:48)\r\n\tat com.qa.stepDefinations.HomePageSteps.user_is_on_login_page(HomePageSteps.java:30)\r\n\tat ✽.Then user is on login page(C:/Selenium/toolsETL1/src/main/java/com/qa/features/LoginFunctionality.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Logn Page has both Email and Password fields",
+            "match": {
+              "location": "LoginButtonVerificationSteps.logn_Page_has_both_Email_and_Password_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the Login button is diabled until user enteres the login credentials",
+            "match": {
+              "location": "LoginButtonVerificationSteps.the_Login_button_is_diabled_until_user_enteres_the_login_credentials()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Login button enables when credentials entered",
+        "description": "",
+        "id": ";login-button-enables-when-credentials-entered",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24844243209,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20017025722,
+              "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027DESKTOP-5OPC42E\u0027, ip: \u0027192.168.1.28\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61469}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir\u003dC:\\Users\\SURESH~1\\AppData\\Local\\Temp\\scoped_dir24688_20770}, takesHeapSnapshot\u003dtrue, unhandledPromptBehavior\u003d, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d68.0.3440.106, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: 20c829c395dfb267d0f27604a2d0a094\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:703)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:374)\r\n\tat com.qa.pages.LoginPage.validateLoginPageTitle(LoginPage.java:48)\r\n\tat com.qa.stepDefinations.HomePageSteps.user_is_on_login_page(HomePageSteps.java:30)\r\n\tat ✽.Then user is on login page(C:/Selenium/toolsETL1/src/main/java/com/qa/features/LoginFunctionality.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Logn Page has both Email and Password fields",
+            "match": {
+              "location": "LoginButtonVerificationSteps.logn_Page_has_both_Email_and_Password_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User Enters both the Emal and Passwords",
+            "match": {
+              "location": "LoginButtonVerificationSteps.user_Enters_both_the_Emal_and_Passwords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Login button gets enabled.",
+            "match": {
+              "location": "LoginButtonVerificationSteps.login_button_gets_enabled()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Forgot password test using the valid email ID.",
+        "description": "",
+        "id": ";forgot-password-test-using-the-valid-email-id.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41340199828,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User opens browser",
+            "match": {
+              "location": "ForgotPasswordSteps.User_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5031064773,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is already on the login page",
+            "match": {
+              "location": "ForgotPasswordSteps.user_is_already_on_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5037826024,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "title of the login page is \u0027Binary Fountain Login - Binary Fountain\u0027",
+            "match": {
+              "location": "ForgotPasswordSteps.title_of_the_login_page_is_Binary_Fountain_Login_Binary_Fountain()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5082610702,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user finds the Forgot Password link on the login page",
+            "match": {
+              "location": "ForgotPasswordSteps.user_finds_the_Forgot_Password_link_on_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5582476728,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on the Forgot Password link then forgot password page opens",
+            "match": {
+              "location": "ForgotPasswordSteps.user_click_on_the_Forgot_Password_link_then_forgot_password_page_opens()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5047829944,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user finds Email field",
+            "match": {
+              "location": "ForgotPasswordSteps.user_finds_Email_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5090835136,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user find the Next button which is in inactive state",
+            "match": {
+              "location": "ForgotPasswordSteps.user_find_the_Next_button_which_is_in_inactive_state()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209840535,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters the Valid Email ID then Next button becomes Active",
+            "match": {
+              "location": "ForgotPasswordSteps.user_enters_the_Valid_Email_ID_then_Next_button_becomes_Active()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65623665,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on the Next button then it goes to the reset Password page",
+            "match": {
+              "location": "ForgotPasswordSteps.user_clicks_on_the_Next_button_then_it_goes_to_the_reset_Password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037051196,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "both Reset Password options displayed",
+            "match": {
+              "location": "ForgotPasswordSteps.both_Reset_Password_options_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5045048074,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "use \u0027Verification Email to rest/update password option\u0027 is selected by default",
+            "match": {
+              "location": "ForgotPasswordSteps.use_Verification_Email_to_rest_update_password_option_is_selected_by_default()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3113709040,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user Clicks on the Submit button",
+            "match": {
+              "location": "ForgotPasswordSteps.user_Clicks_on_the_Submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88176715,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user find the confirmation message",
+            "match": {
+              "location": "ForgotPasswordSteps.user_find_the_confirmation_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691520306,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "close the browser",
+            "match": {
+              "location": "ForgotPasswordSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Validate tools-etl homepage",
+        "description": "",
+        "id": ";validate-tools-etl-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13567687311,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5012876811,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16950219904,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user logs into the application",
+            "match": {
+              "location": "HomePageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47787,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "home page is displayed",
+            "match": {
+              "location": "HomePageSteps.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2987443474,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "validate logged in username",
+            "match": {
+              "location": "HomePageSteps.validate_logged_in_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 678620739,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "close the browser",
+            "match": {
+              "location": "ForgotPasswordSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "This feature is to test the login functionality for tools-etl.dev application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Selenium/toolsETL1/src/main/java/com/qa/features/LoginFunctionality.feature"
+  }
+]
